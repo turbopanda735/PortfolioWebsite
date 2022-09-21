@@ -6,7 +6,11 @@
 
 
 
-<h1 class="text-center pt-3 pb-3">SQL Database</h1>
+<h1 class="text-center pt-3 pb-2">SQL Database</h1>
+
+<div style="display: block" class="pb-4 text-center">
+    <a href="/Product/InsertProduct" class="btn btn-primary btn-outline-dark">create product</a>
+</div>
 
 @{
     var category = "";
@@ -68,14 +72,13 @@
                         <h5 class="card-text" style="@style">@onSale</h5>
                         <h6>Stock:</h6>
                         <p>@product.StockLevel</p>
-                        <a href="/Product/ViewProduct/@product.ProductID">view</a>
+                        <a href="/Product/ViewProduct/@product.ProductID" class="btn btn-light btn-outline-dark">view</a>
                     </div>
                 </div>
             </div>
         </div>
     }
-</div>
-
-<div style="display: block">
-    <a href="/Product/InsertProduct/">Create a New Product</a>
+    <div style="display: block" class="pb-4 text-center">
+        <a href="/Product/InsertProduct" class="btn btn-primary btn-outline-dark">create product</a>
+    </div>
 </div>

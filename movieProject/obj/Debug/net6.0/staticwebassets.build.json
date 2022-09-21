@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AlWCYN5BM4LF7dUz1w/9fpKzfXFY7dM5nGO0llaQFIo=",
+  "Hash": "1rOyM/0573FxL8FJbAfzdl4K73IttF+bxzfKnssLkd8=",
   "Source": "movieProject",
   "BasePath": "_content/movieProject",
   "Mode": "Default",
@@ -102,6 +102,23 @@
       "OriginalItemSpec": "wwwroot\\images\\hacker-getty.jpg"
     },
     {
+      "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\johnny.png",
+      "SourceId": "movieProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\movieProject\\movieProject\\wwwroot\\",
+      "BasePath": "_content/movieProject",
+      "RelativePath": "images/johnny.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\johnny.png"
+    },
+    {
       "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\product\\appliances.jpg",
       "SourceId": "movieProject",
       "SourceType": "Discovered",
@@ -134,6 +151,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\product\\audio.jpg"
+    },
+    {
+      "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\product\\build.jpg",
+      "SourceId": "movieProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\movieProject\\movieProject\\wwwroot\\",
+      "BasePath": "_content/movieProject",
+      "RelativePath": "images/product/build.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\build.jpg"
     },
     {
       "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\product\\computers.jpg",
