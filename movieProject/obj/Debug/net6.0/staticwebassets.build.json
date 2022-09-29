@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1rOyM/0573FxL8FJbAfzdl4K73IttF+bxzfKnssLkd8=",
+  "Hash": "RSwn7uyiQK7CvrLBloV1GG5WuGgHKXGuu6A/ima9Mag=",
   "Source": "movieProject",
   "BasePath": "_content/movieProject",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "E:\\repos\\movieProject\\movieProject\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\movieProject.bundle.scp.css"
     },
     {
+      "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\css\\cover.css",
+      "SourceId": "movieProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\movieProject\\movieProject\\wwwroot\\",
+      "BasePath": "_content/movieProject",
+      "RelativePath": "css/cover.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\cover.css"
+    },
+    {
       "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\css\\site.css",
       "SourceId": "movieProject",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\favicon.png",
+      "SourceId": "movieProject",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\repos\\movieProject\\movieProject\\wwwroot\\",
+      "BasePath": "_content/movieProject",
+      "RelativePath": "images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\favicon.png"
     },
     {
       "Identity": "E:\\repos\\movieProject\\movieProject\\wwwroot\\images\\hacker-getty.jpg",
