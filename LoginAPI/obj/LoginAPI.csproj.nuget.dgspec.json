@@ -1,0 +1,162 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\repos\\movieProject\\LoginAPI\\LoginAPI.csproj": {}
+  },
+  "projects": {
+    "E:\\repos\\movieProject\\LoginAPI\\LoginAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\movieProject\\LoginAPI\\LoginAPI.csproj",
+        "projectName": "LoginAPI",
+        "projectPath": "E:\\repos\\movieProject\\LoginAPI\\LoginAPI.csproj",
+        "packagesPath": "C:\\Users\\joel k\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\movieProject\\LoginAPI\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\apps\\visual studio shared components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joel k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "E:\\repos\\movieProject\\movieProject\\movieProject.csproj": {
+                "projectPath": "E:\\repos\\movieProject\\movieProject\\movieProject.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\repos\\movieProject\\movieProject\\movieProject.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\repos\\movieProject\\movieProject\\movieProject.csproj",
+        "projectName": "movieProject",
+        "projectPath": "E:\\repos\\movieProject\\movieProject\\movieProject.csproj",
+        "packagesPath": "C:\\Users\\joel k\\.nuget\\packages\\",
+        "outputPath": "E:\\repos\\movieProject\\movieProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "E:\\apps\\visual studio shared components\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joel k\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "DocumentFormat.OpenXml": {
+              "target": "Package",
+              "version": "[2.18.0, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.30, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

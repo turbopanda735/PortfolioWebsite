@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\repos\movieProject\movieProject\bin\Release\net6.0\publishapi</_PublishTargetUrl>
+    <History>True|2022-09-21T20:15:41.8249834Z;False|2022-09-21T16:13:45.1704122-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+</Project>
