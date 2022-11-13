@@ -3,6 +3,8 @@ using movieProject.Models.Movie;
 using movieProject.Models.Weather;
 using MySql.Data.MySqlClient;
 using System.Data;
+using Microsoft.EntityFrameworkCore;
+using movieProject.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,7 +22,12 @@ builder.Services.AddScoped<IDbConnection>((s) =>
 
 builder.Services.AddTransient<IProductRepository, ProductRepository>();
 
-
+builder.Services.AddRazorPages();
+builder.Services.AddControllers();
+builder.Services.AddDbContext<TodoContext>(opt =>
+    opt.UseInMemoryDatabase("TodoList"));
+builder.Services.AddDbContext<ReviewContext>(options =>
+                options.UseMySQL(builder.Configuration.GetConnectionString("bestbuy")));
 
 var app = builder.Build();
 
@@ -42,5 +49,11 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.UseEndpoints(endpoints =>
+{
+    endpoints.MapRazorPages();
+    endpoints.MapControllers();
+});
 
 app.Run();

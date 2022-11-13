@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\repos\\movieProject\\movieProject\\movieProject.csproj": {}
+    "E:\\movieProject\\movieProject\\movieProject.csproj": {}
   },
   "projects": {
-    "E:\\repos\\movieProject\\movieProject\\movieProject.csproj": {
+    "E:\\movieProject\\movieProject\\movieProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\repos\\movieProject\\movieProject\\movieProject.csproj",
+        "projectUniqueName": "E:\\movieProject\\movieProject\\movieProject.csproj",
         "projectName": "movieProject",
-        "projectPath": "E:\\repos\\movieProject\\movieProject\\movieProject.csproj",
+        "projectPath": "E:\\movieProject\\movieProject\\movieProject.csproj",
         "packagesPath": "C:\\Users\\joel k\\.nuget\\packages\\",
-        "outputPath": "E:\\repos\\movieProject\\movieProject\\obj\\",
+        "outputPath": "E:\\movieProject\\movieProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\apps\\visual studio shared components\\NuGetPackages"
@@ -27,7 +27,8 @@
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://dotnet.myget.org/F/dotnet-core/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -53,13 +54,43 @@
               "target": "Package",
               "version": "[2.18.0, )"
             },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Analyzers": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.7, )"
+            },
             "MySql.Data": {
               "target": "Package",
-              "version": "[8.0.30, )"
+              "version": "[8.0.31, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.7, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             }
           },
           "imports": [
@@ -81,7 +112,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
