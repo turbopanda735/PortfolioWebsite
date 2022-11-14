@@ -5,9 +5,9 @@ namespace movieProject.Models.Todo
     public interface ITodoRepository
     {
         public IEnumerable<TodoModel> GetAllTodo();
-        public IEnumerable<TodoModel> GetIdTodo(long id);
-        public IEnumerable<TodoModel> DeleteTodo();
-        public IEnumerable<TodoModel> PutTodo();
-        public IEnumerable<TodoModel> PostTodo();
+        public TodoModel GetIdTodo(long id);
+        public void DeleteTodo(long id);
+        public void PutTodo(TodoItem todo);
+        public void PostTodo(TodoItem todo);
     }
 }

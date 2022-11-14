@@ -5,6 +5,7 @@ using MySql.Data.MySqlClient;
 using System.Data;
 using Microsoft.EntityFrameworkCore;
 using movieProject.Models;
+using movieProject.Models.Todo;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 builder.Services.AddScoped<IMovieRepository, MovieRepository>();
 builder.Services.AddScoped<IWeatherRepository, WeatherRepository>();
+builder.Services.AddScoped<ITodoRepository, TodoRepository>();
 
 builder.Services.AddScoped<IDbConnection>((s) =>
 {
