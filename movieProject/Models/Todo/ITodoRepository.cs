@@ -7,7 +7,8 @@ namespace movieProject.Models.Todo
         public IEnumerable<TodoModel> GetAllTodo();
         public TodoModel GetIdTodo(long id);
         public void DeleteTodo(long id);
-        public void PutTodo(TodoItem todo);
-        public void PostTodo(TodoItem todo);
+        public void PutTodo(TodoModel todo);
+        public void PostTodo(TodoModel todo);
+        public void UpdatePutTodo(TodoModel todo);
     }
 }

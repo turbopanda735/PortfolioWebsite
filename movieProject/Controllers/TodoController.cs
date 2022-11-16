@@ -1,6 +1,9 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using DocumentFormat.OpenXml.Wordprocessing;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using movieProject.Models;
 using movieProject.Models.Movie;
+using movieProject.Models.Product;
 using movieProject.Models.Todo;
 
 namespace movieProject.Controllers
@@ -21,15 +24,24 @@ namespace movieProject.Controllers
         }
 
         // GET: TodoController/Details/5
-        public ActionResult Details(int id)
+        public ActionResult Details(long id)
         {
-            return View();
+            var todo = repo.GetIdTodo(id);
+            return View(todo);
         }
 
         // GET: TodoController/Create
         public ActionResult Create()
         {
             return View();
+        }
+
+        public ActionResult UpdateTodo(int id)
+        {
+            var todo = repo.GetIdTodo(id);
+            todo.IsComplete = true;
+            repo.UpdatePutTodo(todo);
+            return RedirectToAction(nameof(Index));
         }
 
         // POST: TodoController/Create

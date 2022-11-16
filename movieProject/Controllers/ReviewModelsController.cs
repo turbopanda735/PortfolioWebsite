@@ -9,7 +9,7 @@ using movieProject.Models;
 
 namespace movieProject.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/reviews")]
     [ApiController]
     public class ReviewModelsController : ControllerBase
     {
